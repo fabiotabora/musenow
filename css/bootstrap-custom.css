@@ -79,12 +79,12 @@ a{
  	color:#4676fa;
 }
 .navbar-light .navbar-brand img{
-	
+	width: 160px;
 }
 
 
-.navbar-toggler i{
-	color: #00d9d9;
+.navbar-toggler span{
+	color: #FFF;
 	font-size: 20px;
 }
 

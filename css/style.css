@@ -5,6 +5,14 @@
 	--color-beige: #B79C7E;
 	--color-verde: #015F67;
 }
+
+@font-face {
+      font-family: "Mikela";
+      src: url("../fonts/MikelaRegular.ttf") format('truetype'),
+ url("../fonts/MikelaRegular.woff") format('woff'),
+url("../fonts/MikelaRegular.woff2") format('woff2');
+    }
+
 body {
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
@@ -20,7 +28,7 @@ header {
 #hero {
 	background-image:
 		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("../img/bg.jpg");
+		url("../img/hero-bg.jpg");
 	padding: 400px 0px;
 	background-size: cover;
 	background-position: top center;
@@ -45,7 +53,7 @@ header {
 .titles {
 	font-family: Mikela, MikelaRegular, Kidstock;
 	font-size: 40px;
-	padding: 60px;
+	padding: 60px 0px;
 	color: #000000;
 	text-decoration: none;
 }
@@ -61,7 +69,7 @@ header {
 #info {
 	font-family: Mikela, MikelaRegular, Kidstock;
 	font-size: 35px;
-	padding-top: 100px;
+	padding: 100px 0px;
 }
 
 #info th{
@@ -78,9 +86,19 @@ header {
 	align-content: center;
 }
 
+.icons {
+	align-content: center;
+	text-align: left;
+	align-items: center;
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: 25%;
+}
 #artists {
 	padding: 100px 0px;
 	align-content: center;
+	background-color: #F8F8F8;
 }
 
 #artists h2 {
@@ -164,14 +182,16 @@ header {
 
 .image {
 	float: left;
-    width:  300px;
+    width:  261px;
     height: 300px;
     object-fit: cover;
 }
 
 
 #content {
-	padding: 100px 0px;
+	padding: 20px 0px;
+	background-color: #F8F8F8;
+	margin-bottom: 20px;
 }
 
 .contact-title {
