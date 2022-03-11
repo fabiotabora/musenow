@@ -233,12 +233,323 @@ header {
 .breadcrumb {
 	padding: 30px 0px;
 }
+
+#lanzamientos {
+	padding: 100px 0px;
+	align-content: center;
+	background-color: #F8F8F8;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#lanzamientos i {
+	font-size: 64px;
+}
+
+#lanzamientos h2 {
+	font-size: 60px;
+	font-family: Mikela, MikelaRegular, Kidstock;
+	text-align: center;
+	color: #000;
+}
+
+#lanzamientos img{
+	border-radius: 20px;
+}
+
+#lanzamientos .slick-buttons .btn-primary{
+	background-color: transparent;
+	color: var(--color-naranja);
+	border:1px solid var(--color-naranja);
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	padding: 0;
+}
+#lanzamientos .slick-buttons .btn-primary:hover{
+	background-color: var(--color-naranja);
+	color: #fff;
+	border-color: var(--color-naranja);	
+}
+
+.slick-slide{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.capa-relative{
+	position: relative;
+	overflow: hidden;
+}
+
+.capa-absolute{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,0.80) !important;
+	color: #fff !important;
+	text-align: center;
+}
+.capa-absolute h4{
+	color: #fff;
+	font-weight: 600;
+}
+.capa-hover{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(1,95,103,0.7);
+	display: grid;
+	align-content: center;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+	color: #fff;
+}
+.capa-hover:hover{
+    opacity: 1;
+	display: grid;
+	align-content: center;
+	width: 100%;
+	height: 100%;
+	border-radius: 25px;
+	transition: all 0.5s ease-in-out;
+}
+
+
+#otros i{
+	font-size: 64px;
+}
+
+#otros h2{
+	color: #fff;
+}
+
+#cards4 {
+  height: 100vh;
+  background: 
+  linear-gradient(
+    rgba(1, 95, 103, 0.45), 
+    rgba(1, 95, 103, 0.45)),
+  url("../img/kodak-black.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+	padding: 20px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+#cards5 {
+  height: 100vh;
+  background: 
+  linear-gradient(
+    rgba(1, 95, 103, 0.45), 
+    rgba(1, 95, 103, 0.45)),
+  url( "../img/doja-cat.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+	padding: 20px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+#cards6 {
+  height: 100vh;
+  background: 
+  linear-gradient(
+    rgba(1, 95, 103, 0.45), 
+    rgba(1, 95, 103, 0.45)),
+  url("../img/kanye.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+	padding: 20px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+#otros h1{
+	color: #000;
+}
+
+#otros h2{
+	color: #fff;
+}
+
+#trending {
+	text-align: center;
+	font-family: Mikela, MikelaRegular, Kidstock;
+	color: #000000;
+	text-decoration: none;
+}
+
+#trending p {
+	text-align:justify;
+	font-size: 18px;
+}
+
+.trends {
+	height: 90vh;
+  	background:content-box;
+	background-position: center;
+	padding: 20px;
+	border-radius: 10px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	color: #000000;
+}
+
+.text {
+	padding: 0px 120px;
+}
+
+#sabias{ 
+	font-size: 19px;
+	color: #000000;
+	text-decoration: none;
+}
+
+#trivia{
+	text-align: center; 
+	color: #000000;
+	text-decoration: none;
+	font-size: 50;
+}
+
+#news1 .modal-header h3{
+	font-weight: bold;
+}
+#news2 .modal-header h3{
+	font-weight: bold;
+}
+#news3 .modal-header h3{
+	font-weight: bold;
+}
+#news4 .modal-header h3{
+	font-weight: bold;
+}
+#news5 .modal-header h3{
+	font-weight: bold;
+}
+#news6 .modal-header h3{
+	font-weight: bold;
+}
+
+.news .card img{
+	height: 350px;
+}
+
+#gallery-base{
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../img/artistbanner2.jpg");
+	padding: 400px 0px;
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	color: #FFF; 
+}
+
+
+#gallery-base h1 {
+	font-family: Mikela, MikelaRegular, Kidstock;
+	color: #FFF;
+}
+
+#gallery-base {
+	padding: 40px;
+}
+
+
+#gallery1{
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../img/artistbanner1.jpg");
+	padding: 400px 0px;
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	color: #FFF; 
+}
+
+#gallery1 h1 {
+	font-family: Mikela, MikelaRegular, Kidstock;
+	color: #FFF;
+}
+
+#gallery1 p{
+	padding: 40px;
+}
+
+#gallery2{
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../img/artistbanner3.jpg");
+	padding: 400px 0px;
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	color: #FFF; 
+}
+
+#gallery2 h1{
+	font-family: Mikela, MikelaRegular, Kidstock;
+	color: #FFF;
+}
+
+#gallery2 p{
+	padding: 40px;
+}
+
+#gallery3{
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../img/artistbanner4.jpg");
+	padding: 400px 0px;
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	color: #FFF; 
+}
+
+#gallery3 h1{
+	font-family: Mikela, MikelaRegular, Kidstock;
+	color: #FFF;
+}
+
+#gallery3 p{
+	padding: 40px;
+}
+
+#gallery4{
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../img/artistbanner5.jpg");
+	padding: 400px 0px;
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	color: #FFF; 
+}
+
+#gallery4 h1{
+	font-family: Mikela, MikelaRegular, Kidstock;
+	color: #FFF;
+}
+
+#gallery4 p{
+		padding: 40px;
+}
+
 footer {
-	padding: 70px;
+	padding: 70px 0px;
 	background-color: #000000;
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
+	margin-top: 100px;
 }
 
 footer p {

@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Galeria - MuseNow</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link href="js/slick/slick.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="img/icon.png" rel="shortcut icon">
+</head>
+
+<body>
+	<div class="container">
+		<section id="gallery3">
+			<h1 class="titles text-center">Twenty One Pilots</h1>
+			<p class="text-center">	
+
+Basado en Los Ángeles, Claire Chicha inició su música como empleada de gira e inició a obtener algo de atención con su mismo material en el incio de la pandemia. El Twenty One Pilots ha lanzado una nueva canción, "Shy Away", de su próximo sexto álbum de estudio, Scaled and Icy, que saldrá el 21 de mayo a través de Fueled by Ramen.
+
+“Shy Away” encuentra al dúo adoptando un sonido propulsor de synth-pop que aún presenta algunos trucos de rock alternativo (incluido un breve pero sabroso desglose de medio tiempo durante el puente para los niños incondicionales). La canción llega con un video musical, dirigido por Miles y AJ, en el que Twenty One Pilots interpreta la canción en diferentes conjuntos abstractos con luces de neón, y en un momento aparece junto a versiones duplicadas de ellos mismos con pasamontañas andrajosos.
+
+Scaled and Icy se creó en gran parte mientras los dos miembros de la banda, Tyler Joseph y Josh Dun, estaban encerrados por Covid-19 en sus respectivos hogares. Los dos colaboraron virtualmente en el álbum, con Joseph escribiendo y produciendo en su casa y Dun grabando e diseñando sus tomas de batería de todo el país.
+
+En la fecha de lanzamiento de Scaled and Icy, Twenty One Pilots presentará su primer concierto en vivo, Twenty One Pilots – Livestream Experience. El espectáculo está programado para el viernes 21 de mayo a las 8:00 p.m. ET, y los boletos ya están a la venta en live.twentyonepilots.com.
+			</p>
+		</section>
+	</div>
+	
+	
+		<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick/slick.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+	<script>
+	$('.slick-carousel').each(function(index, elem) {
+            elem = $(elem);
+            elem.slick({
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                dots: false,
+                arrows: true,
+                centerMode: false,
+                prevArrow: $('.slick-prev')[index],
+                nextArrow: $('.slick-next')[index],
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 990,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+	</script>
+</body>
+</html>
