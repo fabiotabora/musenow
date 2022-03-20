@@ -9,20 +9,21 @@
 <link href="css/bootstrap-custom.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="img/icon.png" rel="shortcut icon">
-	
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-6J8LXFE2BJ"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6J8LXFE2BJ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-6J8LXFE2BJ');
-</script>
+	</script>
 	
-<title>Contacto - MuseNow</title>	
-<meta name="Description" content="Contáctanos, nuestro equipo está al pendiente de tus sugerencias">
-<meta name="Keywords" content="musica, noticias musica, productoras, sony music, nuevos artistas, contacto musenow, musenow, contacto">
+<title>Mi perfil - MuseNow</title>	
+<meta name="Description" content="Somos MuseNow, tu radar de noticias de todo lo relacionado al mundo de la música">
+<meta name="Keywords" content="musica, noticias musica, productoras, sony music, nuevos artistas, musenow">
 </head>
+
+<body>
 	<header>
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -35,7 +36,7 @@
 
   		<div class="collapse navbar-collapse" id="navbar">
 			<ul class="navbar-nav ms-auto">
-			  <li class="nav-item">
+			  <li class="nav-item active">
 				<a class="nav-link" href="index.html">Home</a>
 			  </li>
 			  <li class="nav-item">
@@ -53,7 +54,7 @@
 				<li class="nav-item">
 				<a class="nav-link" href="trivia.html">Trivia</a>
 			  </li>
-				<li class="nav-item active">
+				<li class="nav-item">
 				<a class="nav-link" href="contact.html">Contacto</a>
 			  </li>
 				<li class="nav-item">
@@ -64,34 +65,17 @@
 		  </div>
 		</nav>
 		</div>
-  	</header>
+  	</header>	
 	
-	<body>
-	
-	<section id="content"> 
-	<section id="title">
+	<section id="profile">
 		<div class="container">
 			<div class="row">
-				<article class="col-md-6 col-sm-6 col-12">
-				<h1 class="contact-title">Contáctanos</h1>
+				<article class="col-md-4 col-sm-12 col-12">
+					<i class="las la-user-circle"></i>
 				</article>
-			
-			<article class="col-md-6 col-sm-6 col-12">
- 				 <ol class="breadcrumb float-end">
-   					 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    				<li class="breadcrumb-item active" aria-current="page">Contacto</li>
-  				</ol>
-			</article>
-		</div>
-		</div>
-	</section>
-	</section>
-	
-	<section id="contact">
-		<div class="container">
-			<div class="row">
-				<article class="col-md-8 col-sm-6 col-12">
-					
+				
+				<article class="col-md-4 col-sm-12 col-12">
+					<h2>Datos Generales</h2>
 					<form method="post" action="#">
 						<div class="row">
 							<div class="mb-2 col-md-6 col-sm-12">
@@ -100,46 +84,43 @@
 							</div>
 								
 							<div class="mb-2 col-md-6 col-sm-12">
-								<input name="mail" type="text" class="form-control" placeholder="E-mail" required>
+								<input name="genre" type="text" class="form-control" placeholder="Género Musical Favorito" required>
+							</div>
+							
+							<div class="mb-2 col-md-6 col-sm-12">
+								<input name="artist" type="text" class="form-control" placeholder="Artista Favorito" required>
+							</div>
+							
+							<div class="mb-2 col-md-6 col-sm-12">
+								<input name="interest" type="text" class="form-control" placeholder="Intereses" required>
+							</div>
+							
+							<div class="mb-2 col-md-6 col-sm-12">
+								<input name="correo" type="text" class="form-control" placeholder="Correo" required>
 							</div>
 						</div>
 						
 						<div class="row">
 							<div class="mb-2">
-								<textarea name="message" class="form-control" placeholder="Mensaje" rows="10">
-								
-								</textarea>
-							</div>
-						</div>
-						
-						<div class="row">
-							<div class="mb-2">
-								<button type="submit" href="mailto:contacto.musenow@gmail.com" class="btn btn-dark">Enviar</button>
+								<button type="submit" class="btn btn-dark">Actualizar</button>
 							</div>
 						</div>
 					</form>
 				</article>
 				
-				<article class="col-md-4 col-sm-6 col-12">
-					<h1 class="contact-title">Información de Contacto</h1>
-					
-					<p> En MuseNow escuchamos tu opinión. Envíanos tus sugerencias y responderemos con todo gusto.</p>
-					
-					<h3> Detalles </h3>
-				
-				<ul class="list-contact list-unstyled">
-					<li><a href="tel:22280000"><i class="las la-phone"></i> +504 2228-0000</a></li>
-					<li><a href="tel:99990000"><i class="las la-mobile"></i>+504 9999-0000</a></li>
-					<li><a href="mailto:info@engage.com"><i class="las la-envelope"></i>info.musenow@gmail.com</a></li>
-				</ul>
-					
-				</article>	
+				<article class="col-md-4 col-sm-12 col-12">
+					<h2>Privacidad</h2>
+						<ul class="list-unstyled">
+							<li><a href="#">Público/Privado</a></li>
+							<li><a href="#">Cambio de contraseña</a></li>
+						</ul>
+				</article>
 			</div>
+		
 		</div>
-		
 	</section>
-		
-		<footer>
+	
+	<footer>
 		<div class="container">
 			<div class="row">
 	
@@ -165,13 +146,48 @@
 		</div>	
 	</footer>
 	
-	
-	
-	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-P5GQ4NLWPZ"></script>
-	
+	<script src="js/slick/slick.min.js"></script>
+	<script>
+	$('.slick-carousel').each(function(index, elem) {
+            elem = $(elem);
+            elem.slick({
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                dots: false,
+                arrows: true,
+                centerMode: false,
+                prevArrow: $('.slick-prev')[index],
+                nextArrow: $('.slick-next')[index],
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 990,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+	</script>
 </body>
-		
 </html>
